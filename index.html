@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Habit Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Smart Habit Tracker</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="login.html" class="btn">Login</a>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Build Better Habits, Track Smarter</h2>
+    <p>Stay consistent with your sleep, hydration, and exercise routines using gamification and progress insights.</p>
+    <a href="login.html" class="cta-btn">Start Tracking</a>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Key Features</h2>
+    <div class="feature-box">
+      <h3>🧠 Habit Creation</h3>
+      <p>Create and manage your daily or weekly habits.</p>
+    </div>
+    <div class="feature-box">
+      <h3>💤 Sleep Log</h3>
+      <p>Record bedtime, wake-up, and track sleep quality.</p>
+    </div>
+    <div class="feature-box">
+      <h3>📊 Dashboard</h3>
+      <p>Visualize progress with charts, streaks, and XP points.</p>
+    </div>
+    <div class="feature-box">
+      <h3>🏆 Achievements</h3>
+      <p>Earn XP and rewards for staying consistent.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Smart Habit Tracker</h2>
+    <p>
+      Smart Habit Tracker helps college students maintain healthy habits
+      through an engaging and gamified platform. Track your routines, log
+      progress, and stay motivated to achieve your goals.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: team@smarthabit.com</p>
+    <p>Team: Innovators Hub</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Smart Habit Tracker | Designed for Hackathon</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+      toggleBtn.textContent =
+        document.body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+</body>
+</html>
