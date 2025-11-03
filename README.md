@@ -23,6 +23,15 @@ Frontend: HTML5, CSS3 (with animations)
 Tools: Visual Studio Code, Live Server
 Version Control: Git & GitHub
 
+How to Run the Project
+
+Clone this repository:
+git clone https://github.com/YOUR-USERNAME/smart-habit-tracker.git
+Open the folder in VS Code.
+Right-click on index.html → Open with Live Server.
+Enjoy exploring the Smart Habit Tracker! 🎉
+link:file:///C:/Users/laxmi/OneDrive/Desktop/smart-habit-tracker/index.html
+
 *Description
 The Smart Habit Tracker is a web-based application developed to assist college students in cultivating and sustaining healthy habits through structured monitoring, data visualization, and gamified motivation. Designed with a focus on UI/UX principles, the platform delivers an intuitive and engaging experience that promotes daily consistency and self-improvement.
 
@@ -34,3 +43,5 @@ By combining aesthetic appeal with functionality, the Smart Habit Tracker illust
 
 💬 Conclusion
 The Smart Habit Tracker blends simplicity, motivation, and design to help students stay consistent, healthy, and goal-oriented. It’s not just a tracker — it’s a lifestyle companion that turns everyday actions into long-term success. 🌱
+
+
