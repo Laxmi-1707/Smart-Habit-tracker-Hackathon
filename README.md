@@ -30,6 +30,7 @@ git clone https://github.com/YOUR-USERNAME/smart-habit-tracker.git
 Open the folder in VS Code.
 Right-click on index.html → Open with Live Server.
 Enjoy exploring the Smart Habit Tracker! 🎉
+Right-click on dashboard.html- open with Live server
 link:file:///C:/Users/laxmi/OneDrive/Desktop/smart-habit-tracker/index.html
 
 *Description
